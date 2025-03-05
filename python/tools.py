@@ -350,7 +350,7 @@ def get_jk_covariance(cutouts, howmany_jk_samples, weights=None, T_or_Q_or_U='T'
 
 ################################################################################################################
 ################################################################################################################
-def perform_offsets_correction(mapparams, redshift, model, param_dict, richval, totalclus, fcen = 0.78, lncmis  = -1.13, D_a_sigma_c, constant_D_a_sigma_c = False):
+def perform_offsets_correction(mapparams, redshift, model, param_dict, richval, totalclus, fcen = 0.78, lncmis  = -1.13, D_a_sigma_c=None, constant_D_a_sigma_c = False):
     """
     20230608 - Module for offset correction in Fourier space.
     Not fully tested yet.
