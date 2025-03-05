@@ -18,7 +18,7 @@ parser.add_argument('-start', dest='start', action='store', help='start', type=i
 parser.add_argument('-end', dest='end', action='store', help='end', type=int, default=10)
 parser.add_argument('-paramfile', dest='paramfile', action='store', help='paramfile', type=str, required=True)
 parser.add_argument('-clusters_or_randoms', dest='clusters_or_randoms', action='store', help='clusters_or_randoms', type=str, default='clusters')
-parser.add_argument('-random_seed_for_sims', dest='random_seed_for_sims', action='store', help='random_seed_for_sims', type=int, default=-1)
+parser.add_argument('-random_seed_for_sims', dest='random_seed_for_sims', action='store', help='random_seed_for_sims', type=int, default=679)
 
 args = parser.parse_args()
 args_keys = args.__dict__
